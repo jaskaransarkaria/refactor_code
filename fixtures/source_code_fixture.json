@@ -1,0 +1,79 @@
+[
+  {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '      '
+  },
+  {'type': 'assignment', 'operator': '', 'value': {'type': 'list', 'first_formatting': [], 'second_formatting': [], 'third_formatting': [], 'fourth_formatting': [], 'value': []
+    }, 'target': {'type': 'name', 'value': 'result'
+    }, 'first_formatting': [
+      {'type': 'space', 'value': ' '
+      }
+    ], 'second_formatting': [
+      {'type': 'space', 'value': ' '
+      }
+    ], 'annotation': {}, 'annotation_first_formatting': [], 'annotation_second_formatting': []
+  },
+  {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '      '
+  },
+  {'type': 'for', 'async': False, 'async_formatting': [], 'value': [
+      {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '        '
+      },
+      {'type': 'atomtrailers', 'value': [
+          {'type': 'name', 'value': 'result'
+          },
+          {'type': 'dot', 'first_formatting': [], 'second_formatting': []
+          },
+          {'type': 'name', 'value': 'append'
+          },
+          {'type': 'call', 'value': [
+              {'type': 'call_argument', 'first_formatting': [], 'second_formatting': [], 'value': {'type': 'name', 'value': 'i'
+                }, 'target': {}
+              }
+            ], 'first_formatting': [], 'second_formatting': [], 'third_formatting': [], 'fourth_formatting': []
+          }
+        ]
+      },
+      {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '      '
+      },
+      {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '      '
+      }
+    ], 'iterator': {'type': 'name', 'value': 'i'
+    }, 'target': {'type': 'atomtrailers', 'value': [
+        {'type': 'name', 'value': 'range'
+        },
+        {'type': 'call', 'value': [
+            {'type': 'call_argument', 'first_formatting': [], 'second_formatting': [], 'value': {'type': 'int', 'value': '0', 'section': 'number'
+              }, 'target': {}
+            },
+            {'type': 'comma', 'first_formatting': [], 'second_formatting': [
+                {'type': 'space', 'value': ' '
+                }
+              ]
+            },
+            {'type': 'call_argument', 'first_formatting': [], 'second_formatting': [], 'value': {'type': 'int', 'value': '10', 'section': 'number'
+              }, 'target': {}
+            }
+          ], 'first_formatting': [
+            {'type': 'space', 'value': ' '
+            }
+          ], 'second_formatting': [], 'third_formatting': [], 'fourth_formatting': []
+        }
+      ]
+    }, 'else': {}, 'first_formatting': [
+      {'type': 'space', 'value': ' '
+      }
+    ], 'second_formatting': [
+      {'type': 'space', 'value': ' '
+      }
+    ], 'third_formatting': [
+      {'type': 'space', 'value': ' '
+      }
+    ], 'fourth_formatting': [], 'fifth_formatting': []
+  },
+  {'type': 'print', 'value': [
+      {'type': 'associative_parenthesis', 'first_formatting': [], 'second_formatting': [], 'third_formatting': [], 'fourth_formatting': [], 'value': {'type': 'name', 'value': 'result'
+        }
+      }
+    ], 'destination': None, 'destination_formatting': [], 'formatting': []
+  },
+  {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '      '
+  }
+]

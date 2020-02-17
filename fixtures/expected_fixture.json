@@ -1,0 +1,64 @@
+[
+  {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '      '
+  },
+  {'type': 'assignment', 'operator': '', 'value': {'type': 'list_comprehension', 'first_formatting': [], 'second_formatting': [], 'third_formatting': [], 'fourth_formatting': [], 'result': {'type': 'name', 'value': 'i'
+      }, 'generators': [
+        {'type': 'comprehension_loop', 'first_formatting': [
+            {'type': 'space', 'value': ' '
+            }
+          ], 'second_formatting': [
+            {'type': 'space', 'value': ' '
+            }
+          ], 'third_formatting': [
+            {'type': 'space', 'value': ' '
+            }
+          ], 'fourth_formatting': [
+            {'type': 'space', 'value': ' '
+            }
+          ], 'target': {'type': 'atomtrailers', 'value': [
+              {'type': 'name', 'value': 'range'
+              },
+              {'type': 'call', 'value': [
+                  {'type': 'call_argument', 'first_formatting': [], 'second_formatting': [], 'value': {'type': 'int', 'value': '0', 'section': 'number'
+                    }, 'target': {}
+                  },
+                  {'type': 'comma', 'first_formatting': [], 'second_formatting': [
+                      {'type': 'space', 'value': ' '
+                      }
+                    ]
+                  },
+                  {'type': 'call_argument', 'first_formatting': [], 'second_formatting': [], 'value': {'type': 'int', 'value': '10', 'section': 'number'
+                    }, 'target': {}
+                  }
+                ], 'first_formatting': [
+                  {'type': 'space', 'value': ' '
+                  }
+                ], 'second_formatting': [], 'third_formatting': [], 'fourth_formatting': []
+              }
+            ]
+          }, 'iterator': {'type': 'name', 'value': 'i'
+          }, 'ifs': []
+        }
+      ]
+    }, 'target': {'type': 'name', 'value': 'result'
+    }, 'first_formatting': [
+      {'type': 'space', 'value': ' '
+      }
+    ], 'second_formatting': [
+      {'type': 'space', 'value': ' '
+      }
+    ], 'annotation': {}, 'annotation_first_formatting': [], 'annotation_second_formatting': []
+  },
+  {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '      '
+  },
+  {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '      '
+  },
+  {'type': 'print', 'value': [
+      {'type': 'associative_parenthesis', 'first_formatting': [], 'second_formatting': [], 'third_formatting': [], 'fourth_formatting': [], 'value': {'type': 'name', 'value': 'result'
+        }
+      }
+    ], 'destination': None, 'destination_formatting': [], 'formatting': []
+  },
+  {'type': 'endl', 'value': '\n', 'formatting': [], 'indent': '      '
+  }
+]

@@ -1,0 +1,6 @@
+- include if statements
+- take some code bases and test on them
+
+- manually reverse our process (eg. take a list comp. and turn it into for loop)
+- handle nested for loops
+- test case if varibles _don't_ match
